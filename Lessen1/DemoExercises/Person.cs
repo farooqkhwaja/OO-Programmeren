@@ -1,15 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace DemoExercises;
 
-namespace DemoExercises
+internal class Person
 {
-    internal class Person
+    public int id;
+    private string name;
+    public bool isNewPerson = true;
+    public string Name
     {
-        Person person1 = new Person();
-        Random rnd = new Random();
-
+        get { return name;  }
+        set
+        {
+            if (isNewPerson)
+            {
+                name = value;
+            }
+        }
     }
+
+    public string lastname;
+    public int age;
+
+    public Person(int id, string name, string lastname, int age )
+    {
+        this.id = id;
+        this.name = name;
+        this.lastname = lastname;
+        this.age = age;
+    }
+
+
+
 }
+
