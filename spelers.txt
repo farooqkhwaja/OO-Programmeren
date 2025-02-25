@@ -1,0 +1,4 @@
+Naam,Leeftijd,Team,Positie
+Lionel Messi,36,Inter Miami,Aanvaller
+Cristiano Ronaldo,39,Al-Nassr,Aanvaller
+Kevin De Bruyne,32,Manchester City,Middenvelder

@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAdmin", "SchoolAdmin\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H10-CombinationOf2Numbers", "ClassesAndObjects\H10-CombinationOf2Numbers.csproj", "{A3E6E47F-A546-4B3D-81A3-550A85D7F380}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figures", "Figures\Figures.csproj", "{D2438CD1-3849-4F7A-B42A-7A58BD532462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datastructers", "Datastructers\Datastructers.csproj", "{0F0F341C-9ED9-441A-B979-49C5C77BB4B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +31,19 @@ Global
 		{A3E6E47F-A546-4B3D-81A3-550A85D7F380}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3E6E47F-A546-4B3D-81A3-550A85D7F380}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3E6E47F-A546-4B3D-81A3-550A85D7F380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2438CD1-3849-4F7A-B42A-7A58BD532462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2438CD1-3849-4F7A-B42A-7A58BD532462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2438CD1-3849-4F7A-B42A-7A58BD532462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2438CD1-3849-4F7A-B42A-7A58BD532462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F0F341C-9ED9-441A-B979-49C5C77BB4B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0F341C-9ED9-441A-B979-49C5C77BB4B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0F341C-9ED9-441A-B979-49C5C77BB4B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0F341C-9ED9-441A-B979-49C5C77BB4B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79BD2BFA-353B-4ED8-8223-4838CAB815B1}
 	EndGlobalSection
 EndGlobal

@@ -9,8 +9,15 @@ namespace SchoolAdmin
 {
     internal class CourseResult
     {
-        public string Name;
-        public byte Result;
+        private string name;
+        public string Name { get { return name; } }
+        public byte Result { get; set; }
+
+        public CourseResult(string name, byte result)
+        {
+            this.name = name;
+            Result = result;
+        }
 
     }
 }
